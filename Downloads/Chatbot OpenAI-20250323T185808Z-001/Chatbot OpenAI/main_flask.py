@@ -6,8 +6,6 @@ import tiktoken
 from analise_sentimentos import analisar_sentimento  
 from definir_persona import definir_persona
 
-
-#load_dotenv()
 cliente = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 modelo = "gpt-4"
 
